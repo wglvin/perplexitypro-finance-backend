@@ -3,4 +3,8 @@ flask-cors
 yfinance
 scikit-learn
 pandas
+<<<<<<< HEAD
 gunicorn
+=======
+gunicorn
+>>>>>>> 2f440bc198172d04a977de2670240afc00dcedb3
