@@ -8,6 +8,10 @@ import numpy as np
 app = Flask(__name__)
 CORS(app)
 
+@app.route("/", methods=["GET"])
+def home():
+    return "Perplexity Pro Finance ML API is Running!"
+
 @app.route("/predict", methods=["POST"])
 def predict():
     data = request.get_json()
